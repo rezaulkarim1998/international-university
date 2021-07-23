@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internationl University</title>
+    <!-- font awesome link  -->
+    <script src="https://kit.fontawesome.com/ee20bfd736.js" crossorigin="anonymous"></script>
+    <!-- font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <!-- css link  -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <img src="images/logo.png" alt="">
+            <div class="nav-links" id="navlinks" style="right:-200px;">
+                <i class="fas fa-times" onclick="hidemenu()"></i>
+                <ul>                    
+                    <li><a href="Home">Home</a></li>
+                    <li><a href="Menu">Menu</a></li>
+                    <li><a href="About">About</a></li>
+                    <li><a href="Blog">Blog</a></li>
+                    <li><a href="Contact">Contact</a></li>
+                </ul>                
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="banner-text">
+            <h1>World's Biggest University</h1>
+            <p>Making a website is now one of the essantial thing in the world. you just need to learn Html, css, <br> javasScript and you are good to go.</p>
+            <a href="">Visit us to Know more</a>
+        </div>
+    </header>
+
+    <section class="course">
+        <h1>Course we Offer</h1>
+        <p>This is a Unlimited life suffort of this outstanding cours</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermadiate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem facilis expedita odit dicta consequuntur numquam quia reprehenderit rem delectus, quis iste molestias vero velit doloremque asperiores hic! Iusto, quo impedit.</p>
+            </div>
+            <div class="course-col">
+                <h3>Honr's</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem facilis expedita odit dicta consequuntur numquam quia reprehenderit rem delectus, quis iste molestias vero velit doloremque asperiores hic! Iusto, quo impedit.</p>
+            </div>
+            <div class="course-col">
+                <h3>Masters</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem facilis expedita odit dicta consequuntur numquam quia reprehenderit rem delectus, quis iste molestias vero velit doloremque asperiores hic! Iusto, quo impedit.</p>
+            </div>
+        </div>
+    </section>
+    <!-- campus  -->
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>This is the Beautiful Campus for the study Environment</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/london.png" alt="">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/newyork.png" alt="">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/washington.png" alt="">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var navlinks = documnent.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

@@ -18,7 +18,7 @@
     <header class="header">
         <nav>
             <img src="images/logo.png" alt="">
-            <div class="nav-links" id="navlinks" style="right:-200px;">
+            <div class="nav-links" id="navlinks">
                 <i class="fas fa-times" onclick="hidemenu()"></i>
                 <ul>                    
                     <li><a href="Home">Home</a></li>
@@ -33,7 +33,7 @@
         <div class="banner-text">
             <h1>World's Biggest University</h1>
             <p>Making a website is now one of the essantial thing in the world. you just need to learn Html, css, <br> javasScript and you are good to go.</p>
-            <a href="">Visit us to Know more</a>
+            <a href="" class="hero-btn">Visit us to Know more</a>
         </div>
     </header>
 
@@ -69,25 +69,94 @@
             <div class="campus-col">
                 <img src="images/newyork.png" alt="">
                 <div class="layer">
-                    <h3>WASHINGTON</h3>
+                    <h3>NewYork</h3>
                 </div>
             </div>
             <div class="campus-col">
                 <img src="images/washington.png" alt="">
                 <div class="layer">
-                    <h3>WASHINGTON</h3>
+                    <h3>Skicago</h3>
                 </div>
             </div>
         </div>
     </section>
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>The Best facilities of Our University to long time we Run</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>The Amazing library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ad porro perferendis vitae sit molestiae cupiditate aliquid neque, quam accusamus.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>The Test and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ad porro perferendis vitae sit molestiae cupiditate aliquid neque, quam accusamus.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="">
+                <h3>The Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ad porro perferendis vitae sit molestiae cupiditate aliquid neque, quam accusamus.</p>
+            </div>
+        </div>
+    </section>
+    <section class="feedback">
+        <h1>Our student Says</h1>
+        <div class="row">
+            <div class="feedback-col">
+                <img src="images/user1.jpg" alt="">
+                <div class="feedback-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ex eos assumenda qui similique laboriosam totam blanditiis quidem voluptatem maxime? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam numquam impedit reiciendis dicta laborum similique eaque perferendis perspiciatis dolorum a. </p>
+                    <h3>Chiris Works</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+            <div class="feedback-col">
+                <img src="images/user2.jpg" alt="">
+                <div class="feedback-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ex eos assumenda qui similique laboriosam totam blanditiis quidem voluptatem maxime? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quisquam in optio veritatis. Facere animi maxime magni pariatur assumenda perspiciatis! </p>
+                    <h3>Joe justin</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="enroll">
+        
+            <h1>Enroll For Our Various Courses <br>
+                Anywherre from the world</h1>
+                <a href="" class="hero-btn">Contact us</a>
+        
+    </section>
+    <footer class="footer">
+        <h3>About us</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem blanditiis maiores ducimus  <br> dolor sit amet consectetur, adipisicing elit. Reprehenderit, possimus! </p>
+        <div class="icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Made with By <i class="far fa-heart"></i> Easy Tutorials</p>
+
+    </footer>
     <script>
-        var navlinks = documnent.getElementById("navlinks");
+        var navlinks = document.getElementById("navlinks");
         function showmenu(){
-            navlinks.style.right = "0";
+          navlinks.style.right = "0";
         }
         function hidemenu(){
-            navlinks.style.right = "-200px";
+          navlinks.style.right = "-200px";
         }
-    </script>
+      </script>
 </body>
 </html>
